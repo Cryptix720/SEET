@@ -28,7 +28,12 @@ if platformOS not in  ["Linux", "Darwin"]:
 
 # Check user ID
 if os.getuid() != 0:
-    print("** SET Installer **")
+    print("** SEET Installer **")
+    print("[!] Please execute as root: `$ sudo python setup.py install'")
+    exit()
+# Check real user ID: For Windows users py3 : WIN_SEET
+if os.getlogin() !=:
+    print("** SEET Installer **")
     print("[!] Please execute as root: `$ sudo python setup.py install'")
     exit()
 
