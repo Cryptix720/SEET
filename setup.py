@@ -32,7 +32,7 @@ if os.getuid() != 0:
     print("[!] Please execute as root: `$ sudo python setup.py install'")
     exit()
 # Check real user ID: For Windows users py3 : WIN_SEET
-if os.getlogin() !=:
+if os.getlogin() != 0:
     print("** SEET Installer **")
     print("[!] Please execute as root: `$ sudo python setup.py install'")
     exit()
