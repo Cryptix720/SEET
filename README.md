@@ -1,4 +1,6 @@
 # The Social-Engineer Toolkit (SET)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCryptix720%2FSEET.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FCryptix720%2FSEET?ref=badge_shield)
+
 
 Copyright 2018 The Social-Engineer Toolkit (SET)
 
@@ -76,3 +78,7 @@ $ git clone https://github.com/trustedsec/social-engineer-toolkit/ set/
 $ cd set
 $ python setup.py install
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FCryptix720%2FSEET.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FCryptix720%2FSEET?ref=badge_large)
